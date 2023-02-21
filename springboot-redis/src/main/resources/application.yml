@@ -1,6 +1,10 @@
 spring:
+  application:
+    name: redis-application
   redis:
     database: 1
     host: localhost
     password:
     timeout: 3000
+logging:
+  config: classpath:log/logback-spring.xml

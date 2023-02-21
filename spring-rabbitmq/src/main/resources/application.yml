@@ -1,3 +1,5 @@
+server:
+  port: 8090
 spring:
   rabbitmq:
     host: 127.0.0.1
@@ -12,5 +14,7 @@ spring:
     listener:
       simple:
         acknowledge-mode: manual
-server:
-  port: 8090
+  application:
+    name: rabbitmq
+logging:
+  config: classpath:log/logback-spring.xml
