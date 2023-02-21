@@ -1,0 +1,16 @@
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: test
+    password: 123456
+    # 消息确认机制 生产者 -> 交换机
+    publisherConfirmType: CORRELATED
+    # 消息返回机制  交换机 -> 队列
+    publisher-returns: true
+    # 手动消息确认
+    listener:
+      simple:
+        acknowledge-mode: manual
+server:
+  port: 8090
