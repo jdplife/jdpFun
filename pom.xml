@@ -14,7 +14,7 @@
         <module>springboot-test</module>
         <module>springboot-websocket</module>
         <module>rabbitmq-provider</module>
-        <module>rabbit-consumer</module>
+        <module>rabbitmq-consumer</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
