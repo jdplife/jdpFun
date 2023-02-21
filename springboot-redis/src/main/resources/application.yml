@@ -1,0 +1,6 @@
+spring:
+  redis:
+    database: 1
+    host: localhost
+    password:
+    timeout: 3000
